@@ -1,0 +1,28 @@
+.header {
+  background-color: $main__bg;
+  &__nav {
+    display: flex;
+    padding-top: 73px;
+  }
+
+  &__list {
+    margin-top: 10px;
+    margin-left: 80px;
+    display: flex;
+    column-gap: 40px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #ffffff;
+  }
+  &__link {
+    color: #ffffff;
+  }
+  &__btn {
+    width: 153px;
+    margin-left: 577px;
+    @include button;
+  }
+}

@@ -1,0 +1,32 @@
+@mixin button {
+  box-sizing: border-box;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  background-color: transparent;
+  &:hover {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #002529;
+    background: #ffffff;
+    border-radius: 24px;
+  }
+  &:disabled {
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 24px;
+  }
+}

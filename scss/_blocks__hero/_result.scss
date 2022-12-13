@@ -1,0 +1,66 @@
+.result {
+  position: relative;
+  &__title {
+    margin: 0 auto;
+    margin-top: 140px;
+    width: 932px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__blue {
+    color: $blue__letter;
+  }
+  &__content {
+    position: relative;
+  }
+  &__icon {
+    position: absolute;
+    top: -20px;
+  }
+  &__list {
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+  }
+  &__item {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  &__text {
+    position: relative;
+    width: 350px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__username {
+    margin-top: 32px;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79c8c7;
+  }
+  &__userstatus {
+    margin-top: 2px;
+    margin-bottom: 32px;
+    font-family: "Livvic";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
